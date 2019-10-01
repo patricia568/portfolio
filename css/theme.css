@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #787878;
+  --color-secondary: #FFED8F;
+  --color-accent: #E3B778;
+  --color-primary-light: #A7D486;
+
+  --font-primary: "darker-grotesque", sans-serif;
+  --font-secondary: "libre-caslon-display", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: normal;
+}

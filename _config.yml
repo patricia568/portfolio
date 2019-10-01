@@ -11,12 +11,10 @@ patternbot:
       brand.logos: "--color-neutral-grey"
   rationales:
     typefaces.primary: |
-      BenchNine was selected because it is a simple and clean looking sans-serif typeface that acts as a compliment to the more decorative display fonts.
+      Darker Grotesque was selected because it is a simple and clean looking sans-serif typeface. This typeface adds simplicity to the design.
     typefaces.secondary: |
-      Dorsa was selected for the headings of the website because it offers a thin and narrow type appearance, while also keeping true to the retro style.
-    typefaces.accent: |
-      Capitol was chosen as the tertriary font choice because of its retro appearance for accent elements such as buttons.
+      Libre Caslon Display was selected for the headings of the website because it's modern serif typeface gives a contemporary feel to the website.
     colors.primary: |
-      The primary colours are representative of the time period in which most of the items being sold in were popular.
+      The primary colour is a muted grey, which grounds the text when paired with the more brighter and bolder accent colours.
     colors.secondary: |
-      The secondary colours act as compliments to the primary colours by being lighter in colour and more muted.
+      The secondary colours act as compliments to the primary colours by being bolder, brighter, and more inviting.

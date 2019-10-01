@@ -1,7 +1,9 @@
 :root {
   --color-primary: #787878;
   --color-secondary: #FFED8F;
+  --color-neutral: #FEFEBD;
   --color-accent: #E3B778;
+  --color-neutral-grey: #DCDDDE;
   --color-primary-light: #A7D486;
 
   --font-primary: "darker-grotesque", sans-serif;

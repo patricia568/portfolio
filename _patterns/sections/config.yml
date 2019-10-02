@@ -3,23 +3,6 @@ description: |
   Sections are used on each case study page to organize content. Each section will have a unique peice of content, as well as images to show pregression of each project.
 
 patterns:
-  case-study-overview:
-    title: "Case Study Overview"
-    description: |
-      The "case study overview" section gives the user information on the background of the project, what was to be achieved, and the challenges.
-    fields:
-      - name: image
-        type: string
-        example: "shop-logo-mockup.jpg"
-      - name: subtitle-1
-        type: string
-        example: "Case Study Overview"
-      - name: subtitle-2
-        type: string
-        example: "Sketches"
-      - name: subtitle-3
-        type: string
-        example: "Process & Challenges"
   case-study-title:
     title: "Case Study Title"
     description: |
@@ -28,3 +11,32 @@ patterns:
       - name: title
         type: string
         example: "Branding and Logo Design"
+      - name: title-2
+        type: string
+        example: "The Greek Souvlaki Shack"
+      - name: type
+        type: string
+        example: "Print & Web"
+  case-study-overview:
+    title: "Case Study Overview"
+    description: |
+      The "case study overview" section gives the user information on the background of the project, what was to be achieved, and the challenges.
+    fields:
+      - name: image
+        type: string
+        example: "/images/shop-logo-mockup.jpg"
+      - name: subtitle-1
+        type: string
+        example: "Case Study Overview"
+      - name: sub-subtitle-1
+        type: string
+        example: "Here's what we're working with"
+      - name: subtitle-2
+        type: string
+        example: "Sketches"
+      - name: subtitle-3
+        type: string
+        example: "Process & Challenges"
+      - name: content-overview
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."

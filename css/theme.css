@@ -6,8 +6,8 @@
   --color-neutral-grey: #DCDDDE;
   --color-primary-light: #A7D486;
 
-  --font-primary: "darker-grotesque", sans-serif;
-  --font-secondary: "libre-caslon-display", serif;
+  --font-primary: "darker grotesque", sans-serif;
+  --font-secondary: "libre caslon display", serif;
 }
 
 html {
@@ -17,8 +17,27 @@ html {
 
 h1 {
   font-family: var(--font-secondary);
-  color: var(--color-secondary);
-  font-weight: 400;
+  font-weight: normal;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-weight: 200;
+  color: var(--color-primary);
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  color: var(--color-primary);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  color: var(--color-accent);
 }
 
 .icon-label {

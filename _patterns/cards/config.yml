@@ -16,7 +16,7 @@ patterns:
         example: "/link/"
       - name: hover-image
         type: string
-        example: "pink-bg.svg"
+        example: "green-bg.svg"
       - name: hover-icon
         type: string
         example: "icons.svg#case-study-1-icon"

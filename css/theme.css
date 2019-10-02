@@ -41,7 +41,7 @@ h4 {
 }
 
 .icon-label {
-  font-size: 2rem;
-  color: var(--color-neutral);
+  font-size: 0.8rem;
+  color: var(--color-primary);
   font-weight: 300;
 }

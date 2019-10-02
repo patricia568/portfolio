@@ -10,11 +10,16 @@
     <a class="icon-link" href="{{include.url}}" aria-label="Navigate to the first case study page: Branding and Logo Design">
       <div class="relative">
         <img class="img-flex" src="/images/{{include.hover-image}}" alt="">
-        <div class="pin-c grid">
-          <i class="icon i-256 unit xs-1 s-1 m-1 l-1 xl-1">
+        <div class="pin-c card-content text-center">
+          <i class="icon i-128">
             <svg><use xlink:href="/images/{{include.hover-icon}}" /></svg>
           </i>
-          <span class="icon-label icon-link text-center unit xs-1 s-1 m-1 l-1 xl-1">{{include.icon-label}}</span>
+          <div class="text-center push-1-2">
+            <span class="icon-label icon-link">{{include.icon-label}}</span>
+          </div>
+          <div>
+            {% pattern buttons/case-study-button text="VIEW" url="/link/" %}
+          </div>
         </div>
       </div>
     </a>

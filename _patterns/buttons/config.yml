@@ -1,0 +1,16 @@
+title: "Buttons"
+description: |
+  Buttons are used on the home page website on each card to direct the user to the page.
+
+patterns:
+  case-study-button:
+    title: "Case Study Button"
+    description: |
+      The "case study" button is used on each card for the home page.
+    fields:
+      - name: text
+        type: string
+        example: "VIEW"
+      - name: url
+        type: url
+        example: "/link/"

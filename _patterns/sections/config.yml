@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "Branding and Logo Design"
+        example: "Branding & Logo Design"
       - name: title-2
         type: string
         example: "The Greek Souvlaki Shack"
@@ -40,3 +40,23 @@ patterns:
       - name: content-overview
         type: string
         example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+  case-study-sketches:
+    title: "Sketches"
+    description: |
+      The "case study sketches" section gives the user information on the ideation process, as well as imagery in terms of sketches.
+    fields:
+      - name: image-2
+        type: string
+        example: "/images/shop-logo-mockup.jpg"
+      - name: image-3
+        type: string
+        example: "/images/shop-logo-mockup.jpg"
+      - name: image-4
+        type: string
+        example: "/images/shop-logo-mockup.jpg"
+      - name: subtitle-2
+        type: string
+        example: "Ideation"
+      - name: sub-subtitle-2
+        type: string
+        example: "Sketching sketches"

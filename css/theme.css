@@ -24,4 +24,5 @@ h1 {
 .icon-label {
   font-size: 2rem;
   color: var(--color-neutral);
+  font-weight: 300;
 }

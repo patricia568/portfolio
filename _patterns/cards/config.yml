@@ -20,3 +20,6 @@ patterns:
       - name: hover-icon
         type: string
         example: "icons.svg#case-study-1-icon"
+      - name: icon-label
+        type: string
+        example: "Branding & Logo Design"

@@ -1,20 +1,20 @@
-<div class="relative">
-  <div class="card island">
-    <a class="hover-box" href="{{include.url}}" aria-label="Navigate to the first case study page: Branding and Logo Design">
-      <div class="img-box">
-        <img class="hover-img img-flex card-img" src="/images/{{include.image}}" alt="Image of logo on a takeout bag">
+<div class="container">
+  <div class="card island-1-2">
+    <a href="{{include.url}}" aria-label="Navigate to the first case study page: Branding and Logo Design">
+      <div>
+        <img class="img-flex" src="/images/{{include.image}}" alt="Image of logo on a takeout bag">
       </div>
     </a>
   </div>
-  <div class="card-hover island absolute">
+  <div class="card-hover island-1-2">
     <a class="icon-link" href="{{include.url}}" aria-label="Navigate to the first case study page: Branding and Logo Design">
-      <div class="img-container relative">
-        <img class="img img-flex card-img" src="/images/{{include.hover-image}}" alt="">
+      <div class="relative">
+        <img class="img-flex" src="/images/{{include.hover-image}}" alt="">
         <div class="pin-c grid">
           <i class="icon i-256 unit xs-1 s-1 m-1 l-1 xl-1">
             <svg><use xlink:href="/images/{{include.hover-icon}}" /></svg>
           </i>
-          <span class="icon-label icon-link text-center unit xs-1 s-1 m-1 l-1 xl-1">Branding & Logo Design</span>
+          <span class="icon-label icon-link text-center unit xs-1 s-1 m-1 l-1 xl-1">{{include.icon-label}}</span>
         </div>
       </div>
     </a>

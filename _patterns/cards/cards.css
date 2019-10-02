@@ -1,8 +1,8 @@
-.hover-img {
+.card {
   transition: all .2s linear;
 }
 
-.hover-img:hover {
+.card:hover {
   transform: scale(1.1);
 
 }
@@ -14,6 +14,7 @@
 .container {
   position: relative;
   display: inline-block;
+  transition: all .2s linear;
 }
 
 .card-hover {
@@ -23,8 +24,13 @@
   z-index: 99;
   width: 100%;
   display: none;
+  transition: all .2s linear;
 }
 
-.hover-img:hover .card-hover {
+.container:hover .card-hover {
   display: inline;
+}
+
+.container:hover {
+  transform: scale(1.1);
 }

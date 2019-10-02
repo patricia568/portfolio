@@ -4,4 +4,27 @@
 
 .hover-img:hover {
   transform: scale(1.1);
+
+}
+
+.icon-label {
+  width: 7em;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.card-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  display: none;
+}
+
+.hover-img:hover .card-hover {
+  display: inline;
 }

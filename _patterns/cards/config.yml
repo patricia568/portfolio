@@ -14,3 +14,9 @@ patterns:
       - name: url
         type: url
         example: "/link/"
+      - name: hover-image
+        type: string
+        example: "pink-bg.svg"
+      - name: hover-icon
+        type: string
+        example: "icons.svg#case-study-1-icon"

@@ -20,3 +20,8 @@ h1 {
   color: var(--color-secondary);
   font-weight: 400;
 }
+
+.icon-label {
+  font-size: 2rem;
+  color: var(--color-neutral);
+}

@@ -1,0 +1,30 @@
+title: "Sections"
+description: |
+  Sections are used on each case study page to organize content. Each section will have a unique peice of content, as well as images to show pregression of each project.
+
+patterns:
+  case-study-overview:
+    title: "Case Study Overview"
+    description: |
+      The "case study overview" section gives the user information on the background of the project, what was to be achieved, and the challenges.
+    fields:
+      - name: image
+        type: string
+        example: "shop-logo-mockup.jpg"
+      - name: subtitle-1
+        type: string
+        example: "Case Study Overview"
+      - name: subtitle-2
+        type: string
+        example: "Sketches"
+      - name: subtitle-3
+        type: string
+        example: "Process & Challenges"
+  case-study-title:
+    title: "Case Study Title"
+    description: |
+      The "case study title" section will display the name of the project, as well as the type of media the project was for (i.e. print, web, etc...)
+    fields:
+      - name: title
+        type: string
+        example: "Branding and Logo Design"

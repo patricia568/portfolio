@@ -4,7 +4,7 @@ description: |
 
 patterns:
   case-study-card:
-    title: "Case Sturdy Card"
+    title: "Case Study Card"
     description: |
       The "case study" card sends the user to a detailed page of the steps taken in order to achieve final results of the selected case study. It includes a dramatic affect when hovered on.
     fields:

@@ -1,0 +1,21 @@
+.pat-dan {
+  color: var(--color-primary-light);
+}
+
+h1, p {
+  color: var(--color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: #E3B778;
+  transition: color 300ms linear;
+}
+
+a:hover {
+  color: var(--color-primary-light);
+}
+
+.dot {
+  color: var(--color-accent);
+}

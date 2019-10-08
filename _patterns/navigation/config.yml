@@ -1,0 +1,25 @@
+title: "Navigation"
+description: |
+  Navigation is used mainly on the home page, as well as on each case study page to direct the user to each case study.
+
+patterns:
+  main-nav:
+    title: "Case Study Card"
+    description: |
+      The "main navigation" will be displayed on the home page of the website.
+    fields:
+      - name: logo
+        type: string
+        example: "logo-256.svg"
+      - name: myname
+        type: string
+        example: "Patricia Danochristos"
+      - name: credentials
+        type: string
+        example: "Graphic Designer • Web Developer • Branding"
+      - name: greeting
+        type: string
+        example: "Hi there!"
+      - name: intro
+        type: string
+        example: "Thanks for stopping by! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."

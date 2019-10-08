@@ -72,3 +72,26 @@ patterns:
       - name: image-5
         type: string
         example: "/images/branding-sketches-3.jpg"
+  case-study-final:
+    title: "Final"
+    description: |
+      The "case study final" section gives the user information on the final outcome of the project.
+    fields:
+      - name: subtitle-4
+        type: string
+        example: "Outcome"
+      - name: sub-subtitle-4
+        type: string
+        example: "Here's what the finished product looks like"
+      - name: content-final
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+      - name: image-6
+        type: string
+        example: "/images/business-card-mockup.jpg"
+      - name: image-7
+        type: string
+        example: "/images/label-tag-mockup.jpg"
+      - name: image-8
+        type: string
+        example: "/images/branding-mockup-3.jpg"

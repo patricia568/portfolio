@@ -8,5 +8,6 @@
 
 .btn:hover {
   background-color: transparent;
-  border-color: var(--color-neutral);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }

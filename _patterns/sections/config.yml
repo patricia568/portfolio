@@ -17,6 +17,9 @@ patterns:
       - name: type
         type: string
         example: "Print & Web"
+      - name: image
+        type: string
+        example: "/images/branding-mockup-2.jpg"
   case-study-overview:
     title: "Case Study Overview"
     description: |

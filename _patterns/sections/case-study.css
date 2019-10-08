@@ -3,6 +3,10 @@
   opacity: 0;
 }
 
+.content-box {
+  max-width: 40em;
+}
+
 .title {
   animation: dissolve 1.5s 0.3s linear forwards;
   opacity: 0;

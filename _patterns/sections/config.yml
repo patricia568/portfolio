@@ -25,7 +25,7 @@ patterns:
     description: |
       The "case study overview" section gives the user information on the background of the project, what was to be achieved, and the challenges.
     fields:
-      - name: image
+      - name: image-2
         type: string
         example: "/images/shop-logo-mockup.jpg"
       - name: subtitle-1
@@ -48,18 +48,27 @@ patterns:
     description: |
       The "case study sketches" section gives the user information on the ideation process, as well as imagery in terms of sketches.
     fields:
-      - name: image-2
-        type: string
-        example: "/images/shop-logo-mockup.jpg"
-      - name: image-3
-        type: string
-        example: "/images/shop-logo-mockup.jpg"
-      - name: image-4
-        type: string
-        example: "/images/shop-logo-mockup.jpg"
       - name: subtitle-2
         type: string
         example: "Ideation"
       - name: sub-subtitle-2
         type: string
         example: "Sketching sketches"
+      - name: content-sketches
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+      - name: image-3
+        type: string
+        example: "/images/branding-sketches-1.jpg"
+      - name: content-sketches-2
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      - name: image-4
+        type: string
+        example: "/images/branding-sketches-2.jpg"
+      - name: content-sketches-3
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      - name: image-5
+        type: string
+        example: "/images/branding-sketches-3.jpg"

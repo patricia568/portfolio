@@ -95,3 +95,35 @@ patterns:
       - name: image-8
         type: string
         example: "/images/branding-mockup-3.jpg"
+  case-study-progress:
+    title: "Progress"
+    description: |
+      The "case study progress" section gives the user information on the progress and objectives of the project.
+    fields:
+      - name: progress-title
+        type: string
+        example: "Progression"
+      - name: swatches
+        type: string
+        example: "swatches.svg#cs1-1"
+      - name: swatches-2
+        type: string
+        example: "swatches.svg#cs1-2"
+      - name: swatch-title
+        type: string
+        example: Colour Palette
+      - name: font
+        type: string
+        example: "swatches.svg#cs1-3"
+      - name: font-2
+        type: string
+        example: "swatches.svg#cs1-4"
+      - name: font-title
+        type: string
+        example: "Typography"
+      - name: swatch-label
+        type: string
+        example: "#006088"
+      - name: swatch-label-2
+        type: string
+        example: "#83AAB3"

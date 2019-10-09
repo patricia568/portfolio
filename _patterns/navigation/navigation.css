@@ -19,3 +19,40 @@ a:hover {
 .dot {
   color: var(--color-accent);
 }
+
+.current {
+  text-decoration: underline;
+  color: var(--color-primary-light);
+}
+
+.link-1 {
+  border-right: 1px solid var(--color-accent);
+}
+
+.link-2 {
+  border-left: 1px solid var(--color-accent);
+}
+
+.link-prev h2, .link-prev p{
+  transition: all 200ms ease;
+}
+
+.link-prev:hover h2 {
+  transform: translateX(-1em);
+}
+
+.link-prev:hover p {
+  transform: translateX(1em);
+}
+
+.link-next h2, .link-next p{
+  transition: all 200ms ease;
+}
+
+.link-next:hover h2 {
+  transform: translateX(1em);
+}
+
+.link-next:hover p {
+  transform: translateX(-1em);
+}

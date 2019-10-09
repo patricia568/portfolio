@@ -16,10 +16,24 @@ patterns:
         example: "Patricia Danochristos"
       - name: credentials
         type: string
-        example: "Graphic Designer • Web Developer • Branding"
+        example: "Graphic Design • Web Design • Branding"
       - name: greeting
         type: string
         example: "Hi there!"
       - name: intro
         type: string
         example: "Thanks for stopping by! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+  page-nav:
+    title: "Page Navigation"
+    description: |
+      The "page navigation" will be displayed on the case study page of the website. It will give the user the option to navigate to the next or previous case study.
+    fields:
+      - name: project-link
+        type: string
+        example: "Website Design"
+      - name: url
+        type: url
+        example: "/link/"
+      - name: project-link-2
+        type: string
+        example: "Event Branding"

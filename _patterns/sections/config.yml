@@ -106,24 +106,18 @@ patterns:
       - name: swatches
         type: string
         example: "swatches.svg#cs1-1"
-      - name: swatches-2
-        type: string
-        example: "swatches.svg#cs1-2"
       - name: swatch-title
         type: string
         example: Colour Palette
       - name: font
         type: string
-        example: "swatches.svg#cs1-3"
-      - name: font-2
-        type: string
-        example: "swatches.svg#cs1-4"
+        example: "swatches.svg#cs1-2"
       - name: font-title
         type: string
         example: "Typography"
-      - name: swatch-label
+      - name: content-swatches
         type: string
-        example: "#006088"
-      - name: swatch-label-2
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+      - name: content-font
         type: string
-        example: "#83AAB3"
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."

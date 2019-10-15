@@ -1,0 +1,46 @@
+.footer-title-1, .footer-title-2 {
+  font-family: var(--font-secondary);
+  color: var(--color-accent);
+}
+
+p {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+footer {
+  background-color: var(--color-neutral-grey);
+}
+
+.footer-desc-1, .footer-desc-2 {
+  font-weight: 300;
+  transition: all 200ms ease;
+}
+
+.footer-title-1, .footer-title-2 {
+  transition: all 200ms ease;
+}
+
+.footer-link-1:hover .footer-title-1 {
+  transform: translateX(-1em);
+}
+
+.footer-link-1:hover .footer-desc-1 {
+  transform: translateX(1em);
+}
+
+.footer-link-2:hover .footer-title-2 {
+  transform: translateX(1em);
+}
+
+.footer-link-2:hover .footer-desc-2 {
+  transform: translateX(-1em);
+}
+
+a:hover .logo {
+  transform: scale(1.1);
+}
+
+a .logo {
+  transition: all 200ms ease;
+}

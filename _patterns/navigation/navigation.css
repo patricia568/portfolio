@@ -8,7 +8,7 @@ h1, p {
 
 a {
   text-decoration: none;
-  color: #E3B778;
+  color: var(--color-accent);
   transition: color 300ms linear;
 }
 

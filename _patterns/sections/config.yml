@@ -27,7 +27,7 @@ patterns:
     fields:
       - name: image-2
         type: string
-        example: "/images/shop-logo-mockup.jpg"
+        example: "/images/olive-branch.svg"
       - name: subtitle-1
         type: string
         example: "Case Study Overview"

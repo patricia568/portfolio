@@ -34,13 +34,13 @@ patterns:
       - name: sub-subtitle-1
         type: string
         example: "Here's what we're working with"
-      - name: subtitle-2
-        type: string
-        example: "Sketches"
-      - name: subtitle-3
-        type: string
-        example: "Process & Challenges"
       - name: content-overview
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+      - name: challenge-subtitle
+        type: string
+        example: "Subtitle"
+      - name: challenge-content
         type: string
         example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
   case-study-sketches:
@@ -119,5 +119,19 @@ patterns:
         type: string
         example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
       - name: content-font
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+  case-study-challenges:
+    title: "Challenges"
+    description: |
+      The "case study challenges" section gives the user information on the challenges and objectives of the project.
+    fields:
+      - name: challenge-title
+        type: string
+        example: "The Mission"
+      - name: challenge-subtitle
+        type: string
+        example: "Subtitle"
+      - name: challenge-content
         type: string
         example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."

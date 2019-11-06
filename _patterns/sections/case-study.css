@@ -26,10 +26,7 @@
 
 .img-box {
   height: 20em;
-  background-image: url("../images/branding-mockup-2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  overflow: hidden;
 }
 
 @keyframes dissolve {
@@ -44,21 +41,38 @@
 
 }
 
+.title-container {
+  padding-top: 2em;
+}
+
 .progress-box {
   background-color: var(--color-neutral-grey);
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .img-box {
+    height: 40em;
+    overflow: hidden;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   .img-box {
-    height: 35em;
+    height: 40em;
+    overflow: hidden;
   }
 
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 60em) {
 
-
+  .title-container {
+    padding-top: 0;
+  }
 
 }
 

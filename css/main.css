@@ -6,3 +6,8 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.main-container {
+  max-width: 90em;
+  margin: auto;
+}

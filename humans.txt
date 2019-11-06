@@ -2,8 +2,10 @@
 
 # TEAM
 
-(Write all your team members’ information in here)
-(Any format you’d like—I usually use Markdown)
+Designer & Developer: Patricia Danochristos <patricia@pdano.ca>
+Site: http://pdano.ca
+GitHub: https://github.com/patricia568
+Location: Ottawa, Canada
 
 ---
 

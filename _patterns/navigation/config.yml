@@ -37,3 +37,6 @@ patterns:
       - name: project-link-2
         type: string
         example: "Event Branding"
+      - name: url-2
+        type: url
+        example: "/link/"

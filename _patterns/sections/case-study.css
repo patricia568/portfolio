@@ -25,8 +25,8 @@
 }
 
 .img-box {
-  height: 20em;
-  overflow: hidden;
+  height: 10em;
+  overflow: visible;
 }
 
 @keyframes dissolve {
@@ -53,25 +53,27 @@
 @media only screen and (min-width: 25em) {
 
   .img-box {
-    height: 40em;
-    overflow: hidden;
+    height: 100%;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  .img-box {
-    height: 40em;
-    overflow: hidden;
-  }
+
 
 }
+
 
 @media only screen and (min-width: 60em) {
 
   .title-container {
     padding-top: 0;
+  }
+
+  .img-box {
+    height: 35em;
+    overflow: hidden;
   }
 
 }

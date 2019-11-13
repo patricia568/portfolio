@@ -4,7 +4,7 @@ description: |
 
 patterns:
   main-nav:
-    title: "Case Study Card"
+    title: "Main Navigation"
     description: |
       The "main navigation" will be displayed on the home page of the website.
     fields:
@@ -23,6 +23,12 @@ patterns:
       - name: intro
         type: string
         example: "Thanks for stopping by! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+      - name: url
+        type: url
+        example: "/link/"
+      - name: url-2
+        type: url
+        example: "/link/"
   page-nav:
     title: "Page Navigation"
     description: |

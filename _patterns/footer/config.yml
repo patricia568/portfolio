@@ -1,3 +1,7 @@
 title: "Footer"
 description: |
   The footer will give the user the opportunity to navigate towards the home page, other projects, as well as the option to email me.
+fields:
+  - name: url
+    type: url
+    example: "/link/"

@@ -29,6 +29,9 @@ patterns:
       - name: url-2
         type: url
         example: "/link/"
+      - name: alt-logo_desc
+        type: string
+        example: "Personal logo"
   page-nav:
     title: "Page Navigation"
     description: |

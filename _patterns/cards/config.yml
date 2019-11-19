@@ -23,3 +23,12 @@ patterns:
       - name: icon-label
         type: string
         example: "Branding & Logo Design"
+      - name: btn-url
+        type: url
+        example: "/link/"
+      - name: aria-page_link
+        type: string
+        example: "Navigate to the first case study page: Branding and Logo Design"
+      - name: aria-btn_link
+        type: string
+        example: "Navigate to the first case study page: Branding and Logo Design"

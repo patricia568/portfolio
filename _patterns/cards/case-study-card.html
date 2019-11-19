@@ -7,9 +7,9 @@
     </a>
   </div>
   <div class="card-hover island-1-2">
-    <a class="icon-link" href="{{include.url}}" aria-label="Navigate to the first case study page: Branding and Logo Design">
+    <a class="icon-link" href="{{include.url}}" aria-label="{{include.aria-page_link}}">
       <div class="relative">
-        <img class="img-flex" src="/images/{{include.hover-image}}" alt="">
+        <img class="img-flex" src="/images/{{include.hover-image}}" alt="A background colour for the hover state" role="presentation">
         <div class="pin-c card-content text-center">
           <i class="icon i-128">
             <svg><use xlink:href="/images/{{include.hover-icon}}" /></svg>
@@ -18,7 +18,7 @@
             <span class="icon-label icon-link">{{include.icon-label}}</span>
           </div>
           <div>
-            {% pattern buttons/case-study-button text="VIEW" url="/link/" %}
+            <a class="island-1-4 gutter btn" href="{{include.btn-url}}" aria-label="{{include.btn-link}}">VIEW</a>
           </div>
         </div>
       </div>

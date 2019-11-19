@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 patternbot:
   title: "Patricia Danochristos"
   description: A portfolio website that showcases some of my best graphic design peices.
-  font_url: "https://fonts.googleapis.com/css?family=Darker+Grotesque:300,500|Libre+Caslon+Display&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Darker+Grotesque:300|Libre+Caslon+Display&display=swap"
   colors:
     background: "--color-neutral-grey"
     patterns:

@@ -20,6 +20,9 @@ patterns:
       - name: image
         type: string
         example: "/images/branding-mockup-2.jpg"
+      - name: alt-title_img
+        type: string
+        example: "An image of the logo placed on cardstock"
   case-study-overview:
     title: "Case Study Overview"
     description: |
@@ -43,6 +46,9 @@ patterns:
       - name: challenge-content
         type: string
         example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+      - name: alt-graphic
+        type: string
+        example: "A graphic of an olive branch to represent the logo"
   case-study-sketches:
     title: "Sketches"
     description: |
@@ -72,6 +78,15 @@ patterns:
       - name: image-5
         type: string
         example: "/images/branding-sketches-3.jpg"
+      - name: alt-sketch_img1
+        type: string
+        example: "An image of the first round of sketches for the logo"
+      - name: alt-sketch_img2
+        type: string
+        example: "An image of the second round of sketches for the logo"
+      - name: alt-sketch_img3
+        type: string
+        example: "An image of the third round of sketches for the logo"
   case-study-final:
     title: "Final"
     description: |
@@ -95,6 +110,15 @@ patterns:
       - name: image-8
         type: string
         example: "/images/branding-mockup-3.jpg"
+      - name: alt-final_img1
+        type: string
+        example: "An image of logo"
+      - name: alt-final_img2
+        type: string
+        example: "An image of the logo"
+      - name: alt-final_img3
+        type: string
+        example: "An image of the logo"
   case-study-progress:
     title: "Progress"
     description: |

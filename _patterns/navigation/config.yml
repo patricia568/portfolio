@@ -49,3 +49,9 @@ patterns:
       - name: url-2
         type: url
         example: "/link/"
+      - name: aria-prev_page
+        type: string
+        example: "Navigate to the previous page"
+      - name: aria-next_page
+        type: string
+        example: "Navigate to the next page"

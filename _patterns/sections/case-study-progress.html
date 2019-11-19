@@ -5,12 +5,20 @@
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">
       <h3 class="">{{include.swatch-title}}</h3>
-      <svg><use xlink:href="/images/{{include.swatches}}" /></svg>
+      <svg>
+        <use xlink:href="/images/{{include.swatches}}" />
+        <title>Swatches</title>
+        <description>An image of the swatches used in the design</description>
+      </svg>
       <p class="gutter text-left">{{include.content-swatches}}</p>
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 text-center">
       <h3 class="">{{include.font-title}}</h3>
-      <svg><use xlink:href="/images/{{include.font}}" /></svg>
+      <svg>
+        <use xlink:href="/images/{{include.font}}" />
+        <title>Typography</title>
+        <description>An image of the typefaces used in the design</description>
+      </svg>
       <p class="gutter text-left">{{include.content-font}}</p>
     </div>
   </div>

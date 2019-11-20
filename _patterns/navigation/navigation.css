@@ -56,3 +56,18 @@ a:hover {
 .link-next:hover p {
   transform: translateX(-1em);
 }
+
+.logo-fixed {
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo-fixed {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    display: inline;
+  }
+
+}

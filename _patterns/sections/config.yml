@@ -78,6 +78,12 @@ patterns:
       - name: image-5
         type: string
         example: "/images/branding-sketches-3.jpg"
+      - name: content-sketches-4
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      - name: image-6
+        type: string
+        example: "/images/branding-sketches-3.jpg"
       - name: alt-sketch_img1
         type: string
         example: "An image of the first round of sketches for the logo"
@@ -87,6 +93,9 @@ patterns:
       - name: alt-sketch_img3
         type: string
         example: "An image of the third round of sketches for the logo"
+      - name: alt-sketch_img4
+        type: string
+        example: "An image of the fourth round of sketches for the logo"
   case-study-final:
     title: "Final"
     description: |

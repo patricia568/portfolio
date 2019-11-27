@@ -1,24 +1,24 @@
 <div class="container">
   <div class="card island-1-2">
-    <a href="{{include.url}}" aria-label="Navigate to the first case study page: Branding and Logo Design">
+    <a href="{{include.url}}" aria-label="Navigate to the first case study page: Branding and Logo Design" class="block">
       <div>
         <img class="img-flex" src="/images/{{include.image}}" alt="Image of logo on a takeout bag">
       </div>
     </a>
   </div>
   <div class="card-hover island-1-2">
-    <a class="icon-link" href="{{include.url}}" aria-label="{{include.aria-page_link}}">
+    <a class="icon-link block" href="{{include.url}}" aria-label="{{include.aria-page_link}}">
       <div class="relative">
         <img class="img-flex" src="/images/{{include.hover-image}}" alt="A background colour for the hover state" role="presentation">
         <div class="pin-c card-content text-center">
-          <i class="icon i-128">
+          <i class="icon i-128 block">
             <svg><use xlink:href="/images/{{include.hover-icon}}" /></svg>
           </i>
           <div class="text-center push-1-2">
             <span class="icon-label icon-link">{{include.icon-label}}</span>
           </div>
           <div>
-            <a class="island-1-4 gutter btn" href="{{include.btn-url}}" aria-label="{{include.btn-link}}">VIEW</a>
+            <a class="island-1-4 gutter btn" href="{{include.btn-url}}" aria-label="{{include.btn-link}}" class="block">VIEW</a>
           </div>
         </div>
       </div>

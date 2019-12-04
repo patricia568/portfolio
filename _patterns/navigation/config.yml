@@ -56,6 +56,10 @@ patterns:
         type: string
         example: "Navigate to the next page"
   logo-nav:
-    title: "Logo Navigation"
+    title: "Logo Navigation (Large Screen Sizes)"
+    description: |
+      The "logo navigation" will be displayed on each case study page of the website. It will give the user the option to navigate to the home page easily as it will be in a fixed position throughout.
+  logo-nav-2:
+    title: "Logo Navigation (All Screen Sizes)"
     description: |
       The "logo navigation" will be displayed on each case study page of the website. It will give the user the option to navigate to the home page easily as it will be in a fixed position throughout.

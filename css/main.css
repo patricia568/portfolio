@@ -34,5 +34,28 @@
 }
 
 .batman {
-  background-image: url("../images/batman.jpg");
+  background-image: url("../images/batman3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+.bat-h1, .bat-h2, .bat-h3, .bat-p {
+  color: #ffffff;
+  font-family: var(--font-primary);
+}
+
+.bat-h1 {
+  padding-top: 25px;
+}
+
+.bat-h2 {
+  max-width: 9em;
+  margin: auto;
+}
+
+.bat-p {
+  max-width: 15em;
+  margin: auto;
 }

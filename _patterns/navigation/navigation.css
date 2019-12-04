@@ -61,6 +61,13 @@ a:hover {
   display: none;
 }
 
+.logo-fixed-2 {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  display: inline;
+}
+
 @media only screen and (min-width: 60em) {
 
   .logo-fixed {

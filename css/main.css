@@ -32,3 +32,7 @@
 .skip-links a:focus {
   top: 0;
 }
+
+.batman {
+  background-image: url("../images/batman.jpg");
+}

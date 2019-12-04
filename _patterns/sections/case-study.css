@@ -29,6 +29,12 @@
   overflow: visible;
 }
 
+.graphic-img {
+  max-width: 12em;
+  margin: auto;
+  padding-top: 10em;
+}
+
 @keyframes dissolve {
 
   0% {
@@ -56,6 +62,10 @@
     height: 100%;
   }
 
+  .graphic-img {
+    padding-top: 0;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -63,6 +73,10 @@
   .img-box {
     height: 35em;
     overflow: hidden;
+  }
+
+  .graphic-img {
+    padding-top: 0;
   }
 
 }
